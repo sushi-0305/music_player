@@ -1,3 +1,4 @@
+HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -21,3 +22,23 @@ button {
 button:hover {
   @apply transform scale-105; /* Scale button on hover */
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+h1, h2, h3 {
+  @apply text-center;
+}
+
+button {
+  @apply transition duration-300 ease-in-out;
+}
+
+button:hover {
+  @apply transform scale-105;
+}
+df69210 (Initial commit)
