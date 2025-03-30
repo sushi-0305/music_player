@@ -51,6 +51,7 @@ const App = () => {
 export default App;
 import React, { useState } from 'react';
 import data from './data';
+import './styles.css';
 
 const App = () => {
   const [currentTrackIndex, setCurrentTrackIndex] = useState(0);

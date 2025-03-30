@@ -26,19 +26,23 @@ button:hover {
 @tailwind components;
 @tailwind utilities;
 
+/* Apply background color to the body */
 body {
   @apply bg-gray-100;
 }
 
+/* Center align headings */
 h1, h2, h3 {
   @apply text-center;
 }
 
+/* Button styles */
 button {
-  @apply transition duration-300 ease-in-out;
+  @apply transition duration-300 ease-in-out; /* Smooth transition for buttons */
 }
 
+/* Button hover effect */
 button:hover {
-  @apply transform scale-105;
+  @apply transform scale-105; /* Scale button on hover */
 }
 df69210 (Initial commit)
